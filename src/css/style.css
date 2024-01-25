@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --soft-red : hsl(0, 93%, 68%);
+    --desaturated-red: hsl(0, 36%, 70%);
+}
+
 body {
     min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 main {
@@ -11,10 +19,100 @@ main {
     background-image: url("../../images/bg-pattern-desktop.svg");
     background-size: cover;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_textContent_header {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 15%;
+}
+
+.main_textContent_header img {
+    width: 120px;
+    margin-top: 50px;
+}
+
+.main_textContent_content {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+.main_textContent_content_header {
+    font-size: 80px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_textContent_content_header span {
+    font-weight: 300;
+    font-size: 90px;
+    color: var(--desaturated-red);
+}
+
+.main_textContent_content_paragraph {
+    margin-top: 20px;
+    color: var(--soft-red);
+    font-weight: 200;
+    line-height: 25px;
+    margin-bottom: 30px;
+
+}
+
+.main_textContent_content_form {
+    position: relative;
+    width: 500px;
+    display: flex;
+}
+
+.main_textContent_content_form input {
+    width: 400px;
+    border: 1px solid var(--desaturated-red);
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 50px;
+    
+}
+
+.error {
+    background: url("../../images/icon-error.svg") no-repeat 340px;
+    background-size: 20px;
+}
+
+.errorText {
+    position: absolute;
+    bottom: -30px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: var(--soft-red);
+    display: none;
+}
+
+.main_textContent_content_form button {
+    width: 90px;
+    height: 100%;
+    border: none;
+    border-radius: 50px;
+    margin-left: -45px;
+    background: linear-gradient(135deg, rgba(248, 191, 191, 1) 0%, rgba(238, 140, 140, 1) 100%);
+}
+
+.main_textContent_content_form input:focus {
+    outline: none;
 }
 
 .main_imageContent {
     width: 40%;
+    background-color: aqua;
 }
 
 .main_imageContent img{
