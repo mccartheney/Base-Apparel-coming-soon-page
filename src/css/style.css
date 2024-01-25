@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.main_textContent {
+    background-image: url("../../images/bg-pattern-desktop.svg");
+    background-size: cover;
+    width: 60%;
+}
+
+.main_imageContent {
+    width: 40%;
+}
+
+.main_imageContent img{
+    width: 100%;
+    height: 100%;
+}
