@@ -70,6 +70,7 @@
         align-items: center;
         width: 100%;
         margin-left: -10px;
+        margin-bottom: 40px;
     }
 
     .main_textContent_content_form input {
@@ -83,5 +84,8 @@
     .error {
         background: url("../../images/icon-error.svg") no-repeat 170px;
         background-size: 20px;
+    }
+
+    .errorText {
     }
 }
