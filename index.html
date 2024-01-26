@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/styleMobile.css">
 
   <title>Base Apparel coming soon page</title>
 
@@ -33,12 +34,12 @@
         </div>
         <div class="main_textContent_content_paragraph">
           <p>
-            Hello fellow shoppers! We're currently building our new <br>fashion store. 
-            Add your email below to stay up-to-date with <br>announcements and our launch deals.
+            Hello fellow shoppers! We're currently building <br class="mobile">our new <br class="desktop">fashion store. 
+            Add your email below to <br class="mobile">stay up-to-date with <br class="desktop">announcements and our <br class="mobile">launch deals.
           </p>
         </div>
         <form class="main_textContent_content_form">
-          <input type="text" placeholder="Email Address" class="main_textContent_content_form-input">
+          <input type="text" placeholder="Email Address" class="main_textContent_content_form-input error">
           <button type="submit"><img src="./images/icon-arrow.svg" alt="arrow"></button>
           <div class="errorText">
             <p>
@@ -49,7 +50,10 @@
       </div>
     </div>
     <div class="main_imageContent">
-      <img src="./images/hero-desktop.jpg" alt="model">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="./images/hero-mobile.jpg">
+        <img src="./images/hero-desktop.jpg" alt="model">
+      </picture>
     </div>
   </main>
 

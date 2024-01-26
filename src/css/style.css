@@ -10,6 +10,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.mobile {
+    display: none;
+}
+
 main {
     display: flex;
     height: 100vh;
@@ -112,7 +116,6 @@ main {
 
 .main_imageContent {
     width: 40%;
-    background-color: aqua;
 }
 
 .main_imageContent img{

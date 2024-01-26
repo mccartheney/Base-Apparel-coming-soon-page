@@ -1,0 +1,87 @@
+@media (max-width : 1023px) {
+    
+    .mobile {display: inline;}
+
+    .desktop {display: none;}
+
+    main{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main_imageContent {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+    }
+
+
+    .main_textContent {
+        background: none;
+        padding-top: none;
+        width: 100%;
+    }
+    
+    .main_textContent_header {
+        margin-bottom: none;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .main_textContent_header img {
+        margin-top:4vh;
+        width: 30vw;
+    }
+
+    @media (min-width : 550px) {
+        .main_textContent_header img {
+            width: 150px;
+        }
+    }
+    
+    .main_textContent_content {
+        margin-top: 90vw;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+    
+    .main_textContent_content_header h1{
+        font-size: calc(40px + 1vw);
+    }
+
+    .main_textContent_content_header span {
+        font-size: calc(30px + 1vw);
+    }
+
+    .main_textContent_content_form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .main_textContent_content_form input {
+        width: 240px;
+    }
+
+    .main_textContent_content_form button {
+        width: 70px;
+    }
+
+    .error {
+        background: url("../../images/icon-error.svg") no-repeat 170px;
+        background-size: 20px;
+    }
+}
