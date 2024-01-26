@@ -26,12 +26,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenShots/desktop.png)
+![](./screenShots/desktop_active.png)
+![](./screenShots/mobile.png)
+![](./screenShots/mobile_active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/mccartheney/Base-Apparel-coming-soon-page)
+- Live Site URL: [Site URL](https://cerulean-brigadeiros-5b7e48.netlify.app/)
 
 ## My process
 
